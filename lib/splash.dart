@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:ramadhan_app/constant.dart';
+import 'package:ramadhan_app/color.dart';
 import 'package:ramadhan_app/homepage.dart';
 
 class Splash extends StatefulWidget {

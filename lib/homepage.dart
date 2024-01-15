@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ramadhan_app/Quran/quranpage.dart';
-import 'package:ramadhan_app/constant.dart';
+import 'package:ramadhan_app/color.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});

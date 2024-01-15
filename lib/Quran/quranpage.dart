@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quran/quran.dart' as quran;
 import 'package:ramadhan_app/Quran/selectedsurah.dart';
-import 'package:ramadhan_app/constant.dart';
+import 'package:ramadhan_app/color.dart';
 
 // ignore: must_be_immutable
 class QuranPage extends StatefulWidget {

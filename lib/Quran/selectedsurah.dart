@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quran/quran.dart' as quran;
-import 'package:ramadhan_app/constant.dart';
+import 'package:ramadhan_app/color.dart';
 
 class SelectedSurah extends StatelessWidget {
   const SelectedSurah({super.key, required this.surahNumber});
