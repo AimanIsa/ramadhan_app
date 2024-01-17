@@ -2,9 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ramadhan_app/Quran/quranpage.dart';
-import 'package:ramadhan_app/checklist/checklist.dart';
+import 'package:ramadhan_app/checklist/home_page.dart';
 import 'package:ramadhan_app/color.dart';
 import 'package:ramadhan_app/groupmember/groupmember.dart';
+import 'package:ramadhan_app/info.dart';
 import 'package:ramadhan_app/prayer_time/prayer_times.dart';
 
 class Homepage extends StatelessWidget {
@@ -174,7 +175,12 @@ class Homepage extends StatelessWidget {
                 ElevatedButton(
                     style:
                         ElevatedButton.styleFrom(backgroundColor: lightgreen),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        CupertinoPageRoute(builder: (context) => info()),
+                      );
+                    },
                     child: Icon(
                       Icons.info,
                       color: darkgreen,
