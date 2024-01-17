@@ -1,15 +1,7 @@
 import 'package:flutter/material.dart';
-
-import 'package:hive_flutter/hive_flutter.dart';
 import 'package:ramadhan_app/splash.dart';
 
-void main() async {
-  //init the hive
-  await Hive.initFlutter();
-
-  // open a box
-  var box = await Hive.openBox('mybox');
-
+void main() {
   runApp(const MainApp());
 }
 
@@ -19,9 +11,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Splash(),
-      theme: ThemeData(primarySwatch: Colors.blue),
-    );
+        theme: ThemeData(
+            colorScheme: ColorScheme.fromSeed(seedColor: Colors.white)),
+        debugShowCheckedModeBanner: false,
+        home: Splash());
   }
 }
