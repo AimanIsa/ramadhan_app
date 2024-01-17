@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ramadhan_app/Quran/quranpage.dart';
+import 'package:ramadhan_app/checklist/checklist.dart';
 import 'package:ramadhan_app/color.dart';
 import 'package:ramadhan_app/groupmember/groupmember.dart';
 import 'package:ramadhan_app/prayer_time/prayer_times.dart';
@@ -116,6 +117,10 @@ class Homepage extends StatelessWidget {
               Card(
                 color: lightgreen,
                 child: GestureDetector(
+                  onTap: () => Navigator.push(
+                    context,
+                    CupertinoPageRoute(builder: (context) => checklist()),
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(30.0),
                     child: Column(
