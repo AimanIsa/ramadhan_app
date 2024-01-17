@@ -12,12 +12,16 @@
 
 
 ## Api and package used 
-
+- 
 
 ## Sample screenrecord of the application 
 
 
-https://github.com/AimanIsa/ramadhan_app/assets/94151132/d6240e5e-e44c-4206-8b88-6e0928605d13
+
+https://github.com/AimanIsa/ramadhan_app/assets/94151132/c29b1a89-f3bb-471c-8070-8c2c670e3f3a
+
+
+
 
 
 
