@@ -56,7 +56,7 @@ class info extends StatelessWidget {
                           children: [
                             Text("Summary"),
                             Text(
-                                "The Ramadhan Application integrates with a lot of functionalities, including a dynamic live countdown timer for Ramadan, an interactive ramadhan checklist, real-time prayer time updates and quranic text. We hope that the application can be a useful and significant tools for user to enhance and organize their Ramadan observance as well as gaining more Ramadan related knowledge so that it can help others in observing Ramadan in a meaningful way."),
+                                "The Ramadhan Application integrates with a lot of functionalities, an interactive ramadhan checklist, real-time prayer time updates and quranic text. We hope that the application can be a useful and significant tools for user to enhance and organize their Ramadan observance as well as gaining more Ramadan related knowledge so that it can help others in observing Ramadan in a meaningful way."),
                           ]),
                     ),
                   ),
