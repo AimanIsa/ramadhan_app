@@ -24,7 +24,7 @@ help others in observing Ramadan in a meaningful way.
 
 Steps to run in own machine:
 1) copy and paste the repository link in the code section : https://github.com/AimanIsa/ramadhan_app.git
-2) open command palate, clone by specifying link of repo
+2) open command palette, clone by specifying link of repo
 3) open emulator and run debugging
 
 ## Api and package used 
